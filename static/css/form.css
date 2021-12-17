@@ -1,0 +1,24 @@
+main {
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+main ul {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    gap: 0.1rem;
+}
+
+main section h3 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form select {
+    margin-bottom: 1rem;
+}
