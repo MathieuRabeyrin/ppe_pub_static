@@ -4,4 +4,6 @@ footer {
 
 footer p {
     text-align: center;
+    background-color: #162032;
+    padding: 1rem;
 }

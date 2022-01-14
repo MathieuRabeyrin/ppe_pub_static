@@ -1,14 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Inter&display=swap');
+
 html{
     font-size: 62.5%;
     scroll-behavior: smooth;
+    color: #fff;
 }
 body{
-    font: 1.6rem 'Raleway',sans-serif;
+    font: 1.6rem 'Inter', sans-serif;
     margin: 0;
-    background-color: #fff;
     line-height: 1.6;
-    text-rendering:optimizeLegibility;
+    text-rendering: optimizeLegibility;
+    background-color: #131720;
 }
+
+h1 {
+    font: 4.2rem 'Caveat Brush', sans-serif;
+}
+
+
 h1,h2,h3,h4,p,ul,ol, figure{
     margin: 0;
     padding: 0;
