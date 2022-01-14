@@ -27,8 +27,8 @@ form input:not(input[type="submit"]), form select {
 }
 
 input[type="submit"]{
-    background-color: #fcf02d;
-    color: black;
+    background-color: var(--btn-color);
+    color: #222;
     font-weight: bolder;
     padding: 1rem 3rem;
     cursor: pointer;

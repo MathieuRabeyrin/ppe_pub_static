@@ -8,7 +8,7 @@ main article {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #162032;
+    background-color: var(--secondary-bg-color);
     border-radius: 1.6rem;
     padding: 2rem;
     box-shadow: 0 0 0.3rem rgba(255, 255, 255, 0.1);
@@ -37,8 +37,8 @@ main ul li img {
 
 main article a {
     margin-top: 4rem;
-    background-color: #fcf02d;
-    color: black;
+    background-color: var(--btn-color);
+    color: #222;
     padding: 1.5rem;
     border-radius: 1.6rem;
     font-weight: bolder;

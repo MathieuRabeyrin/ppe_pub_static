@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Inter&display=swap');
 
+:root {
+    --main-bg-color: #131720;
+    --btn-color: #fcf02d;
+    --secondary-bg-color: #162032;
+}
+
 html{
     font-size: 62.5%;
     scroll-behavior: smooth;
@@ -10,13 +16,12 @@ body{
     margin: 0;
     line-height: 1.6;
     text-rendering: optimizeLegibility;
-    background-color: #131720;
+    background-color: var(--main-bg-color);
 }
 
 h1 {
     font: 4.2rem 'Caveat Brush', sans-serif;
 }
-
 
 h1,h2,h3,h4,p,ul,ol, figure{
     margin: 0;

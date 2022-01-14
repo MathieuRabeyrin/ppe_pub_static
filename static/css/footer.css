@@ -1,9 +1,6 @@
 footer {
-    margin-top: 10rem;
-}
-
-footer p {
     text-align: center;
-    background-color: #162032;
+    background-color: var(--secondary-bg-color);
     padding: 1rem;
+    margin-top: 10rem;
 }
