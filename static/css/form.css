@@ -22,13 +22,14 @@ form {
 
 form input, form select {
     margin-bottom: 2rem;
-    padding: 1.5rem;
+    padding: 1rem;
+    outline: none;
 }
 
 input[type="submit"]{
     margin-top: 4rem;
     background-color: #fcf02d;
     color: black;
-    padding: 1.5rem;
+    padding: 1rem;
     font-weight: bolder;
 }
