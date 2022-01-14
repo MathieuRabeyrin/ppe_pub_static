@@ -20,16 +20,20 @@ form {
     flex-direction: column;
 }
 
-form input, form select {
+form input:not(input[type="submit"]), form select {
     margin-bottom: 2rem;
     padding: 1rem;
     outline: none;
 }
 
 input[type="submit"]{
-    margin-top: 4rem;
     background-color: #fcf02d;
     color: black;
-    padding: 1rem;
     font-weight: bolder;
+    padding: 1rem 3rem;
+    cursor: pointer;
+}
+
+div {
+    text-align: center;
 }
