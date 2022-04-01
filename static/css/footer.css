@@ -1,6 +1,9 @@
 footer {
-    text-align: center;
-    background-color: var(--secondary-bg-color);
+    background-color: var(--secondary-color);
     padding: 1rem;
-    margin-top: 10rem;
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
 }

@@ -1,11 +1,18 @@
 header {
     display: flex;
-    justify-content: center;
     align-items: center;
-    margin: 2.5rem 0;
+    justify-content: center;
+    background-color: var(--secondary-color);
+    padding: 1rem;
+    box-shadow: 0 .4rem .5rem rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    color: #fff;
+    font-size: 5rem;
 }
 
 header img {
-    margin-right: 3rem;
-    width: 10rem;
+    height: 10rem;
+    margin-right: 2rem;
 }

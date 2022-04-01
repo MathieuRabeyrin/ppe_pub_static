@@ -7,32 +7,68 @@
     <meta name="description" content="Films, séries TV et bien plus en illimité.">
     <title>Films, séries TV et bien plus en illimité.</title>
     <link rel="stylesheet" href="./static/css/reset.css">
+    <link rel="stylesheet" href="./static/css/card.css">
     <link rel="stylesheet" href="./static/css/header.css">
     <link rel="stylesheet" href="./static/css/footer.css">
-    <link rel="stylesheet" href="./static/css/form.css">
+    <link rel="stylesheet" href="./static/css/formpage.css">
 </head>
 <body>
     <header>
-        <img src="./static/assets/film.svg" alt="logo">
+        <img src="./static/assets/logo.png" alt="logo">
         <h1>Films, séries TV et bien plus en illimité.</h1>
     </header>
     <main>
         <ul>
-            <li><img src="./static/assets/poster6.jpg" alt=""></li>
-            <li><img src="./static/assets/poster1.jpg" alt=""></li>
-            <li><img src="./static/assets/poster3.jpg" alt=""></li>
-            <li><img src="./static/assets/poster13.jpg" alt=""></li>
-            <li><img src="./static/assets/poster4.jpg" alt=""></li>
+            <li>
+                <figure>
+                    <img src="./static/assets/poster1.jpg" alt="">
+                    <figcaption>
+                        <p>Star Wars<span>78%</span></p>
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="./static/assets/poster13.jpg" alt="">
+                    <figcaption>
+                        <p>Logan<span>80%</span></p>
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="./static/assets/poster5.jpg" alt="">
+                    <figcaption>
+                        <p>Batman<span>82%</span></p>
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="./static/assets/poster4.jpg" alt="">
+                    <figcaption>
+                        <p>Roboto<span>68%</span></p>
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="./static/assets/poster14.jpg" alt="">
+                    <figcaption>
+                        <p>Freedom<span>78%</span></p>
+                    </figcaption>
+                </figure>
+            </li>
         </ul>
         <section>
             <h2>Remplissez le formulaire</h2>
             <form action="#">
                 <label for="last-name">Nom</label>
-                <input type="text" id="last-name" name="last-name">
+                <input type="text" id="last-name" name="last-name" placeholder="Nom">
                 <label for="first-name">Prénom</label>
-                <input type="text" id="first-name" name="first-name">
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email">
+                <input type="text" id="first-name" name="first-name" placeholder="Prénom">
+                <label for="email">Adresse e-mail</label>
+                <input type="email" id="email" name="email" placeholder="E-mail">
                 <label for="city">Ville</label>
                 <select name="city" id="city">
                     <option value="paris">Paris</option>

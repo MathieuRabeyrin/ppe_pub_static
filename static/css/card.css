@@ -1,0 +1,30 @@
+figure {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 .4rem .5rem rgba(0, 0, 0, 0.2);
+}
+
+figure img {
+    height: 27rem;
+    width: 100%;
+}
+
+figure figcaption {
+    background-color: var(--secondary-color);
+    padding: 1rem;
+}
+
+figure figcaption p {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+
+figure figcaption span {
+    color: var(--tertiary-color);
+    font-weight: bold;
+    background-color: var(--primary-color);
+    padding: .6rem;
+    box-shadow: 0 0 0.2rem #222;
+}
