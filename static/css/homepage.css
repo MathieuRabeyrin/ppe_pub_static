@@ -37,3 +37,30 @@ article a {
     box-shadow: 0 .4rem .5rem rgba(0, 0, 0, 0.2);
     font-weight: bold;
 }
+
+@media only screen and (max-width: 767px) {
+    main ul {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    main ul {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    main ul {
+        gap: 2rem;
+    }
+
+    main article > p {
+        margin-bottom: 2rem;
+    }
+
+    main {
+        margin: 0 2rem;
+        margin-top: 3rem;
+    }
+}
