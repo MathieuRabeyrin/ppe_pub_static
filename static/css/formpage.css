@@ -49,7 +49,7 @@ main section form input[type="submit"] {
     display: block;
     background-color: var(--tertiary-color);
     color: #222;
-    padding: 1rem 2rem;
+    padding: 1rem 3rem;
     margin: 0 auto;
     margin-top: 2rem;
     text-align: center;
